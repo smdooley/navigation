@@ -18,6 +18,7 @@
 		E45C6A942CEDF4F0009E5833 /* NavigationStackRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A932CEDF4F0009E5833 /* NavigationStackRootView.swift */; };
 		E45C6A962CEDF88F009E5833 /* NavigationStackCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A952CEDF88F009E5833 /* NavigationStackCodable.swift */; };
 		E45C6A982CEDF8F4009E5833 /* PathStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A972CEDF8F4009E5833 /* PathStore.swift */; };
+		E45C6A9A2CEE0165009E5833 /* CustomisingNavigationBarAppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A992CEE0165009E5833 /* CustomisingNavigationBarAppearanceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E45C6A932CEDF4F0009E5833 /* NavigationStackRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackRootView.swift; sourceTree = "<group>"; };
 		E45C6A952CEDF88F009E5833 /* NavigationStackCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCodable.swift; sourceTree = "<group>"; };
 		E45C6A972CEDF8F4009E5833 /* PathStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathStore.swift; sourceTree = "<group>"; };
+		E45C6A992CEE0165009E5833 /* CustomisingNavigationBarAppearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomisingNavigationBarAppearanceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				E45C6A912CEDF401009E5833 /* NavigateDifferentDataTypesView.swift */,
 				E45C6A932CEDF4F0009E5833 /* NavigationStackRootView.swift */,
 				E45C6A952CEDF88F009E5833 /* NavigationStackCodable.swift */,
+				E45C6A992CEE0165009E5833 /* CustomisingNavigationBarAppearanceView.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				E45C6A982CEDF8F4009E5833 /* PathStore.swift in Sources */,
 				E45C6A942CEDF4F0009E5833 /* NavigationStackRootView.swift in Sources */,
 				E45C6A902CEDEF80009E5833 /* ProgrammaticNavigationView.swift in Sources */,
+				E45C6A9A2CEE0165009E5833 /* CustomisingNavigationBarAppearanceView.swift in Sources */,
 				E45C6A8C2CEDED94009E5833 /* SimpleNavigationLinkView.swift in Sources */,
 				E45C6A7F2CEDECC3009E5833 /* ContentView.swift in Sources */,
 				E45C6A7D2CEDECC3009E5833 /* NavigationApp.swift in Sources */,
