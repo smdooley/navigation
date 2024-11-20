@@ -11,6 +11,7 @@
 		E45C6A7F2CEDECC3009E5833 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A7E2CEDECC3009E5833 /* ContentView.swift */; };
 		E45C6A812CEDECC5009E5833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45C6A802CEDECC5009E5833 /* Assets.xcassets */; };
 		E45C6A842CEDECC5009E5833 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45C6A832CEDECC5009E5833 /* Preview Assets.xcassets */; };
+		E45C6A8C2CEDED94009E5833 /* SimpleNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A8B2CEDED94009E5833 /* SimpleNavigationLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E45C6A7E2CEDECC3009E5833 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E45C6A802CEDECC5009E5833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E45C6A832CEDECC5009E5833 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E45C6A8B2CEDED94009E5833 /* SimpleNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNavigationLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E45C6A7B2CEDECC3009E5833 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				E45C6A8A2CEDED7A009E5833 /* Tutorials */,
 				E45C6A7C2CEDECC3009E5833 /* NavigationApp.swift */,
 				E45C6A7E2CEDECC3009E5833 /* ContentView.swift */,
 				E45C6A802CEDECC5009E5833 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				E45C6A832CEDECC5009E5833 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E45C6A8A2CEDED7A009E5833 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				E45C6A8B2CEDED94009E5833 /* SimpleNavigationLink.swift */,
+			);
+			path = Tutorials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45C6A8C2CEDED94009E5833 /* SimpleNavigationLink.swift in Sources */,
 				E45C6A7F2CEDECC3009E5833 /* ContentView.swift in Sources */,
 				E45C6A7D2CEDECC3009E5833 /* NavigationApp.swift in Sources */,
 			);
