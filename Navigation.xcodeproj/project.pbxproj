@@ -11,8 +11,9 @@
 		E45C6A7F2CEDECC3009E5833 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A7E2CEDECC3009E5833 /* ContentView.swift */; };
 		E45C6A812CEDECC5009E5833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45C6A802CEDECC5009E5833 /* Assets.xcassets */; };
 		E45C6A842CEDECC5009E5833 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45C6A832CEDECC5009E5833 /* Preview Assets.xcassets */; };
-		E45C6A8C2CEDED94009E5833 /* SimpleNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A8B2CEDED94009E5833 /* SimpleNavigationLink.swift */; };
-		E45C6A8E2CEDEE49009E5833 /* SmartNavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A8D2CEDEE49009E5833 /* SmartNavigationDestination.swift */; };
+		E45C6A8C2CEDED94009E5833 /* SimpleNavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A8B2CEDED94009E5833 /* SimpleNavigationLinkView.swift */; };
+		E45C6A8E2CEDEE49009E5833 /* SmartNavigationDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A8D2CEDEE49009E5833 /* SmartNavigationDestinationView.swift */; };
+		E45C6A902CEDEF80009E5833 /* ProgrammaticNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A8F2CEDEF80009E5833 /* ProgrammaticNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +22,9 @@
 		E45C6A7E2CEDECC3009E5833 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E45C6A802CEDECC5009E5833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E45C6A832CEDECC5009E5833 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E45C6A8B2CEDED94009E5833 /* SimpleNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNavigationLink.swift; sourceTree = "<group>"; };
-		E45C6A8D2CEDEE49009E5833 /* SmartNavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartNavigationDestination.swift; sourceTree = "<group>"; };
+		E45C6A8B2CEDED94009E5833 /* SimpleNavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNavigationLinkView.swift; sourceTree = "<group>"; };
+		E45C6A8D2CEDEE49009E5833 /* SmartNavigationDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartNavigationDestinationView.swift; sourceTree = "<group>"; };
+		E45C6A8F2CEDEF80009E5833 /* ProgrammaticNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +77,9 @@
 		E45C6A8A2CEDED7A009E5833 /* Tutorials */ = {
 			isa = PBXGroup;
 			children = (
-				E45C6A8B2CEDED94009E5833 /* SimpleNavigationLink.swift */,
-				E45C6A8D2CEDEE49009E5833 /* SmartNavigationDestination.swift */,
+				E45C6A8B2CEDED94009E5833 /* SimpleNavigationLinkView.swift */,
+				E45C6A8D2CEDEE49009E5833 /* SmartNavigationDestinationView.swift */,
+				E45C6A8F2CEDEF80009E5833 /* ProgrammaticNavigationView.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -151,10 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E45C6A8C2CEDED94009E5833 /* SimpleNavigationLink.swift in Sources */,
+				E45C6A902CEDEF80009E5833 /* ProgrammaticNavigationView.swift in Sources */,
+				E45C6A8C2CEDED94009E5833 /* SimpleNavigationLinkView.swift in Sources */,
 				E45C6A7F2CEDECC3009E5833 /* ContentView.swift in Sources */,
 				E45C6A7D2CEDECC3009E5833 /* NavigationApp.swift in Sources */,
-				E45C6A8E2CEDEE49009E5833 /* SmartNavigationDestination.swift in Sources */,
+				E45C6A8E2CEDEE49009E5833 /* SmartNavigationDestinationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

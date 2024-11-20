@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SmartNavigationDestination: View {
+struct SmartNavigationDestinationView: View {
     var body: some View {
         NavigationStack {
             List(0..<100) { i in
@@ -27,5 +27,5 @@ struct SmartNavigationDestination: View {
 }
 
 #Preview {
-    SmartNavigationDestination()
+    SmartNavigationDestinationView()
 }

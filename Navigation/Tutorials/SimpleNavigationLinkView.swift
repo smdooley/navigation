@@ -10,7 +10,7 @@ import SwiftUI
 //
 // Lots of DetailView instances are being created as you scroll around, often more than once
 //
-struct SimpleNavigationLink: View {
+struct SimpleNavigationLinkView: View {
     var body: some View {
         NavigationStack {
             List(0..<1000) { i in
@@ -36,5 +36,5 @@ struct SimpleNavigationLink: View {
 }
 
 #Preview {
-    SimpleNavigationLink()
+    SimpleNavigationLinkView()
 }
