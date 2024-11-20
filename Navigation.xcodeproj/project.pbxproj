@@ -16,6 +16,8 @@
 		E45C6A902CEDEF80009E5833 /* ProgrammaticNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A8F2CEDEF80009E5833 /* ProgrammaticNavigationView.swift */; };
 		E45C6A922CEDF401009E5833 /* NavigateDifferentDataTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A912CEDF401009E5833 /* NavigateDifferentDataTypesView.swift */; };
 		E45C6A942CEDF4F0009E5833 /* NavigationStackRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A932CEDF4F0009E5833 /* NavigationStackRootView.swift */; };
+		E45C6A962CEDF88F009E5833 /* NavigationStackCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A952CEDF88F009E5833 /* NavigationStackCodable.swift */; };
+		E45C6A982CEDF8F4009E5833 /* PathStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A972CEDF8F4009E5833 /* PathStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		E45C6A8F2CEDEF80009E5833 /* ProgrammaticNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationView.swift; sourceTree = "<group>"; };
 		E45C6A912CEDF401009E5833 /* NavigateDifferentDataTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateDifferentDataTypesView.swift; sourceTree = "<group>"; };
 		E45C6A932CEDF4F0009E5833 /* NavigationStackRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackRootView.swift; sourceTree = "<group>"; };
+		E45C6A952CEDF88F009E5833 /* NavigationStackCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCodable.swift; sourceTree = "<group>"; };
+		E45C6A972CEDF8F4009E5833 /* PathStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				E45C6A7E2CEDECC3009E5833 /* ContentView.swift */,
 				E45C6A802CEDECC5009E5833 /* Assets.xcassets */,
 				E45C6A822CEDECC5009E5833 /* Preview Content */,
+				E45C6A972CEDF8F4009E5833 /* PathStore.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -86,6 +91,7 @@
 				E45C6A8F2CEDEF80009E5833 /* ProgrammaticNavigationView.swift */,
 				E45C6A912CEDF401009E5833 /* NavigateDifferentDataTypesView.swift */,
 				E45C6A932CEDF4F0009E5833 /* NavigationStackRootView.swift */,
+				E45C6A952CEDF88F009E5833 /* NavigationStackCodable.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -160,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45C6A982CEDF8F4009E5833 /* PathStore.swift in Sources */,
 				E45C6A942CEDF4F0009E5833 /* NavigationStackRootView.swift in Sources */,
 				E45C6A902CEDEF80009E5833 /* ProgrammaticNavigationView.swift in Sources */,
 				E45C6A8C2CEDED94009E5833 /* SimpleNavigationLinkView.swift in Sources */,
@@ -167,6 +174,7 @@
 				E45C6A7D2CEDECC3009E5833 /* NavigationApp.swift in Sources */,
 				E45C6A8E2CEDEE49009E5833 /* SmartNavigationDestinationView.swift in Sources */,
 				E45C6A922CEDF401009E5833 /* NavigateDifferentDataTypesView.swift in Sources */,
+				E45C6A962CEDF88F009E5833 /* NavigationStackCodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
