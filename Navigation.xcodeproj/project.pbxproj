@@ -20,6 +20,7 @@
 		E45C6A982CEDF8F4009E5833 /* PathStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A972CEDF8F4009E5833 /* PathStore.swift */; };
 		E45C6A9A2CEE0165009E5833 /* CustomisingNavigationBarAppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A992CEE0165009E5833 /* CustomisingNavigationBarAppearanceView.swift */; };
 		E45C6A9C2CEE0254009E5833 /* PlacingToolbarButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A9B2CEE0254009E5833 /* PlacingToolbarButtonsView.swift */; };
+		E45C6A9E2CEE030A009E5833 /* NavigationTitleEditableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C6A9D2CEE030A009E5833 /* NavigationTitleEditableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E45C6A972CEDF8F4009E5833 /* PathStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathStore.swift; sourceTree = "<group>"; };
 		E45C6A992CEE0165009E5833 /* CustomisingNavigationBarAppearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomisingNavigationBarAppearanceView.swift; sourceTree = "<group>"; };
 		E45C6A9B2CEE0254009E5833 /* PlacingToolbarButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacingToolbarButtonsView.swift; sourceTree = "<group>"; };
+		E45C6A9D2CEE030A009E5833 /* NavigationTitleEditableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleEditableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				E45C6A952CEDF88F009E5833 /* NavigationStackCodable.swift */,
 				E45C6A992CEE0165009E5833 /* CustomisingNavigationBarAppearanceView.swift */,
 				E45C6A9B2CEE0254009E5833 /* PlacingToolbarButtonsView.swift */,
+				E45C6A9D2CEE030A009E5833 /* NavigationTitleEditableView.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				E45C6A902CEDEF80009E5833 /* ProgrammaticNavigationView.swift in Sources */,
 				E45C6A9A2CEE0165009E5833 /* CustomisingNavigationBarAppearanceView.swift in Sources */,
 				E45C6A8C2CEDED94009E5833 /* SimpleNavigationLinkView.swift in Sources */,
+				E45C6A9E2CEE030A009E5833 /* NavigationTitleEditableView.swift in Sources */,
 				E45C6A7F2CEDECC3009E5833 /* ContentView.swift in Sources */,
 				E45C6A7D2CEDECC3009E5833 /* NavigationApp.swift in Sources */,
 				E45C6A8E2CEDEE49009E5833 /* SmartNavigationDestinationView.swift in Sources */,
